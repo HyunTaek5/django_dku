@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.longtext{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    background-color: darkseagreen;
+}
+
+
+.text{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: beige;
+}
+
+
+
+.longtext h2{
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 6em;
+    text-align: justify;
+    color: white;
+    z-index: 1;
+    mix-blend-mode: overlay;
+}
+
+
+.text a{
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 2em;
+    text-align: justify;
+    color: #333 ;
+    z-index: 3;
+    line-height: 2;
+    mix-blend-mode: overlay;
+    text-decoration:none;
+}
+.text h4{
+    border: 6px solid darkseagreen;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+.text h4:hover, .text h4:focus, .text h4:active{
+    background-color: darkseagreen;
+    color: beige;
+}
+
+.li {
+    line-height:50%
+}
+footer {
+  position: fixed;
+  left:0px;
+  bottom:0px;
+  height:110px;
+  width:100%;
+  background:darkseagreen;
+  color: white;
+}

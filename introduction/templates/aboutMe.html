@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="utf-8">
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+    <link rel="stylesheet" href="{% static 'aboutMe.css' %}" />
+</head>
+<header>
+    <a class='back' onclick=history.back()>
+        <img src="../static/back.png" alt="back" >
+    </a>
+</header>
+<body>
+    <div>
+        <div class="header">
+            <img src="../static/my.png" alt="profile" width="400px" height="400px"/>
+            <ul>
+                <h1>오현택</h1>
+                <h4>단국대학교
+                    <br>모바일시스템공학과</h4>
+                <p>- Entropy Paradox 에서 백엔드 엔지니어 <br>
+                    및 프론트 엔지니어를 맡고 있습니다. <br>
+                    - 웹 / 앱 / 게임 / ML 등 분야를 가리지 않고,<br>개발이 일상이자 취미인 개발자 겸 대학생입니다.</p>
+            </ul>
+        </div>
+        <ul class="main">
+            <h1>Tech Detail</h1>
+            <div>
+                <h2>Language</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>JavaScript & ECMAScript</li>
+                    <li>TypeScript</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <h2>Frameworks</h2>
+            <div class="back">
+             <h3>Backend</h3>
+                <ul>
+                    <li>Django</li>
+                    <li>Flask</li>
+                    <li>NestJS</li>
+                    <li>Spring</li>
+                </ul>
+            </div>
+            <div class="front">
+                <h3>Frontend</h3>
+                <ul><li>ReactJs</li></ul>
+            </div>
+            <div class="db">
+                <h3>Databases</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>PostgresSQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div class="devOps">
+                <h3>DevOps</h3>
+                <ul>
+                    <li>AWS & GCP & Heroku</li>
+                    <li>Docker</li>
+                    <li>Grafana & Prometheus</li>
+                </ul>
+            </div>
+        </ul>
+    </div>
+</body>
+</html>
