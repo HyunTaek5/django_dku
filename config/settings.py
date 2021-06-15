@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '&jujg8u8+6s!xzik2#i$p1ev9oq@dqdb9sne3le=zj_+&87klm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['13.125.158.94', '13.125.137.154', '3.36.133.46']
+ALLOWED_HOSTS = ['13.125.69.234']
 
 INTERNAL_IPS = ["127.0.0.1"]
 
